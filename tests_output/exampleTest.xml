@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="2">
+
+  <testsuite name="exampleTest"
+    errors="1" failures="0" hostname="" id="" package="exampleTest" skipped="1"
+    tests="2" time="0.004000" timestamp="Wed, 29 Nov 2017 22:57:44 GMT">
+  
+    <testcase name="I can put data in the fields and generate a result" classname="exampleTest" time="0.004000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Example Test / I can put data in the fields and generate a result]:
+
+  TypeError: Cannot read property 'minimumEntry' of undefined
+    at Object.I can put data in the fields and generate a result (/Users/jacobmorrison/devmtn_qa/qa-enter-wanted/nightwatch/tests/exampleTest.js:14:44)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+  Error while running [Test / I can put in information and get a good text message as a result]:
+
+  TypeError: Cannot read property 'to' of undefined
+    at Object.I can put in information and get a good text message as a result (/Users/jacobmorrison/devmtn_qa/qa-enter-wanted/nightwatch/tests/test.js:70:67)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="I can put bad data in and get the right error message" classname="exampleTest">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
